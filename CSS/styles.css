@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Comodo Vintage';
+    src: url(/ComodoVintage.otf);
+}
+
+body {
+    background-color: #ffcb05;
+    font-family: 'Comodo Vintage';
+}
+
+
+
+
+#gif {
+	position: absolute;
+}
