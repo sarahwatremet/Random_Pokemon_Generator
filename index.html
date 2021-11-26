@@ -3,6 +3,7 @@
 
     <meta charset = "utf-8"> 
     <title>Random Pokemon GIF Generator</title>
+    <link rel="shortcut icon" href="Design_plat_Pokéball.svg" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -14,26 +15,28 @@
 
 <body>
 
+<!-- Introduction space -->
 <div class="container-fluid">
     <div class="col mx-auto">
         <section id="presentation">
             <div class="row m-2 justify-content-md-center">
-                <h1>Welcome to the random Pokemon Gifs generator!</h1>
+                <h1 class="text-center">Welcome to the random Pokemon Gifs generator!</h1>
             </div>
             <div class="row m-2 justify-content-md-center">
-                <h2>Love Pokemon? Love GIFS?</h2>
+                <h2 class="text-center">Love Pokemon? Love GIFS?</h2>
             </div>
             <div class="row m-2 justify-content-md-center">
-                <h3>Then enjoy some random Pokemon GIFS!</h3>
+                <h3 class="text-center">Then enjoy some random Pokemon GIFS!</h3>
             </div>
             <div class="row m-2 justify-content-md-center">
-                <h2>⬇️⬇️⬇️</h2>
+                <h2 class="text-center">⬇️⬇️⬇️</h2>
             </div>
         </section>
 
 
     <br>
 
+    <!-- The jumbotron contains the GIF element and the button to refresh -->
         <div id="jumbotron" class="jumbotron jumbotron-fluid rounded" style="background-color: #FFEAA580">
             <div id="jumb" class="container">
                 <div class="row m-2 justify-content-md-center">
@@ -50,12 +53,14 @@
     </div> <!-- closes the 1st col -->
 </div> <!-- closes the 1st container -->
     
-<div class="container-fluid">
+
+<!-- Footer with 3 links -->
+<div class="container-fluid" id="bottom">
     <footer class="m-2">
         <ul class="nav justify-content-md-center">
-            <li class="nav-item"><a class="nav-link" href="/Contact_form.html"></a>Contact Me</li>
-            <li class="nav-item nav-link"><a class="nav-link" href="https://github.com/sarahwatremet"></a>GitHub</li>
-            <li class="nav-item nav-link"><a class="nav-link" href="https://www.linkedin.com/in/sarah-watremet-0ab26464/"></a>LinkedIn</li>
+            <li class="nav-item"><a id="link" class="nav-link badge-pill" href="/Contact_form.html">Contact Me</a></li>
+            <li class="nav-item"><a id="link" class="nav-link badge-pill" href="https://github.com/sarahwatremet">GitHub</li></a>
+            <li class="nav-item"><a id="link" class="nav-link badge-pill" href="https://www.linkedin.com/in/sarah-watremet-0ab26464/">LinkedIn</a></li>
         </ul>
        
     </footer>
